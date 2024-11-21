@@ -2,7 +2,14 @@
 
 const Header = () => {
   return (
-    <header>Header</header>
+    <header>
+      <img src="" alt="logo" />
+      {/* menu */}
+      <button>
+        menu
+        <img src="" alt="menu-logo" />
+      </button>
+    </header>
   )
 }
 
