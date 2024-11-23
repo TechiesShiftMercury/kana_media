@@ -50,6 +50,7 @@ img.full-width {
 
 body {
   color: #faf0f0;
+  background-color: hsla(0, 8%, 5%, 0.9);
   /* position: relative; */
 }
 

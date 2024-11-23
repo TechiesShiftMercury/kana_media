@@ -18,11 +18,11 @@ const Hero = () => {
 
   return (
     <section className="relative">
-      <div className="h-dvh w-full sticky top-0 bg-black opacity-80 grid place-items-center">
+      <div className="h-dvh w-full sticky top-0 left-0 z-30 grid place-items-center">
         <img src={hero_img} alt="" className="w-[555px]" />
       </div>
-      <div className="h-dvh w-full absolute top-0 bg-black opacity-70 md:opacity-60"></div>
-      <div className="h-dvh w-full absolute top-0">
+      {/* <div className="h-dvh w-full absolute top-0 bg-black opacity-70 md:opacity-60"></div> */}
+      <div className="h-dvh w-full absolute top-0 z-40">
         <div className="my-44 md:mt-40 md:mb-20 mx-10 md:ml-28 md:mr-12 flex justify-center md:justify-between items-center text-center md:text-start">
           <div>
             <p className="text-xs font-medium md:text-base tracking-wide uppercase text-gray-500 mt-4 md:my-0">
@@ -54,7 +54,7 @@ const Hero = () => {
             >
               <BiLogoInstagram className="text-2xl" />
               <span
-                className={`absolute right-6 text-base text-green-600 px-2 py-1 rounded shadow-lg capitalize transition-all duration-300 ease-in-out ${
+                className={`absolute right-6 text-base text-green-600 px-2 py-1 capitalize transition-all duration-300 ease-in-out ${
                   hoveredIcon === "instagram"
                     ? "opacity-100 translate-x-0"
                     : "opacity-0 translate-x-4"
@@ -70,7 +70,7 @@ const Hero = () => {
             >
               <BiLogoFacebookSquare className="text-2xl" />
               <span
-                className={`absolute right-6 text-base text-green-600 px-2 py-1 rounded shadow-lg capitalize transition-all duration-300 ease-in-out ${
+                className={`absolute right-6 text-base text-green-600 px-2 py-1 capitalize transition-all duration-300 ease-in-out ${
                   hoveredIcon === "facebook"
                     ? "opacity-100 translate-x-0"
                     : "opacity-0 translate-x-4"
@@ -86,7 +86,7 @@ const Hero = () => {
             >
               <PiYoutubeLogoBold className="text-2xl" />
               <span
-                className={`absolute right-6 text-base text-green-600 px-2 py-1 rounded shadow-lg capitalize transition-all duration-300 ease-in-out ${
+                className={`absolute right-6 text-base text-green-600 px-2 py-1 capitalize transition-all duration-300 ease-in-out ${
                   hoveredIcon === "youtube"
                     ? "opacity-100 translate-x-0"
                     : "opacity-0 translate-x-4"
