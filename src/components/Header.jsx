@@ -1,13 +1,18 @@
+import { FaHamburger } from "react-icons/fa";
+import Logo from "../assets/variable_logos/Logo"
 
 
-const Header = () => {
+const Header = ({onMenuClick}) => {
+
   return (
-    <header className="flex justify-between items-center px-8 py-2">
-      <img src="" alt="logo" />
+    <header className="full-width w-full flex justify-between items-center px-8 md:py-2 absolute top-0 z-50">
+      <Logo fillColor={'green'} width={'12rem'} />
       {/* menu */}
-      <button>
+      <button className="flex items-center gap-2 fixed top-5 right-12 uppercase text-green-700  hover:text-white"
+        onClick={() => onMenuClick(true)}
+      >
         menu
-        <img src="" alt="menu-logo" />
+        <FaHamburger />
       </button>
     </header>
   )

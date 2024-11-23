@@ -48,6 +48,11 @@ img.full-width {
   --clr-primary: #33443c;
 }
 
+body {
+  color: #faf0f0;
+  /* position: relative; */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
