@@ -1,6 +1,6 @@
 const WhoWeAre = () => {
   return (
-    <section id="who_we_are" className="bg-[#39b54a] h-dvh text-gray-900 text-center">
+    <section id="who_we_are" className="bg-green-600 h-dvh text-gray-900 text-center">
       <div className="mx-10 md:px-6 py-12 md:py-36 flex flex-col items-center">
         <div className="mt-4 mb-12">
           <p className="font-medium text-xs md:text-base mb-2 uppercase">

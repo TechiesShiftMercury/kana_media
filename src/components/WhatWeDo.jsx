@@ -1,6 +1,7 @@
 import PersonalisedAlbums from "../assets/personalised_albums.jpg";
 import Refreshment from "../assets/refreshment.jpeg";
 import Photography from "../assets/photography.webp";
+import Testimonial from "./Testimonial";
 
 const WhatWeDo = () => {
   return (
@@ -64,6 +65,7 @@ const WhatWeDo = () => {
             </div>
           </div>
         </div>
+      <Testimonial />
       </div>
     </section>
   );
