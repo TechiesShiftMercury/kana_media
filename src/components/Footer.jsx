@@ -1,3 +1,5 @@
+import Logo from "../assets/variable_logos/Logo";
+
 function Footer() {
   return (
     <footer className="bg-green-600 text-white py-8">
@@ -5,7 +7,7 @@ function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
           {/* Brand Name */}
           <div className="mb-6 md:mb-0">
-            <h1 className="text-xl font-bold">Brand Name</h1>
+            <Logo fillColor={'white'} width={'12rem'} />
           </div>
 
           {/* Contact Section */}
@@ -36,7 +38,7 @@ function Footer() {
 
         {/* Bottom Text */}
         <div className="mt-8 border-t border-white/20 pt-4 text-sm text-center md:text-left">
-          <p>Copyright © Footer 2014. All rights reserved.</p>
+          <p>Copyright © Footer 2024. All rights reserved.</p>
         </div>
       </div>
     </footer>
