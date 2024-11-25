@@ -19,7 +19,7 @@ const Hero = () => {
   return (
     <section className="relative">
       <div className="h-dvh w-full sticky top-0 left-0 z-30 grid place-items-center">
-        <img src={hero_img} alt="" className="w-[555px]" />
+        <img src={hero_img} alt="" className="w-[555px] opacity-55" />
       </div>
       {/* <div className="h-dvh w-full absolute top-0 bg-black opacity-70 md:opacity-60"></div> */}
       <div className="h-dvh w-full absolute top-0 z-40">
